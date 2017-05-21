@@ -9,7 +9,7 @@ public class App {
 		// TODO Auto-generated method stub
 		
 		app = new ClassPathXmlApplicationContext("bean.xml");
-		MyBean bean = (MyBean)app.getBean("mybean1");
+		MyBeanInterface bean = (MyBeanInterface)app.getBean("mybean1");
 		//or
 		//MyBean bean = app.getBean(MyBean.class);
 		System.out.println(bean);
