@@ -4,7 +4,9 @@ public class App {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("fafa");
+		
+		MyBean bean = new MyBean("kenji morita!");
+		System.out.println(bean);
 	}
 
 }
