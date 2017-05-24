@@ -10,6 +10,8 @@ public class App {
 		
 		app = new ClassPathXmlApplicationContext("bean.xml");
 		MyBean bean = (MyBean)app.getBean("mybean1");
+		//or
+		//MyBean bean = app.getBean(MyBean.class);
 		System.out.println(bean);
 	}
 
