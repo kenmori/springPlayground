@@ -11,6 +11,9 @@
 		<title>Welcome</title>
 	</head> 
 	<body>
+	<!--http://localhost:8080/EdachanApp/ -->
+	<!--  springFramework4 p181まで -->
+	
 		<c:url value="/showMessage.html" var="messageUrl" />
 		<a href="${messageUrl}">Click to enter</a>
 	</body>
